@@ -1,4 +1,5 @@
 /* Element Chalk Variables */
+@import "diy-var";
 
 /* Transition
 -------------------------- */
@@ -704,10 +705,10 @@ $--breakpoints-spec: (
   'sm-only': "(min-width: #{$--sm}) and (max-width: #{$--md} - 1)",
   'sm-and-down': (max-width: $--md - 1),
   'md-and-up' : (min-width: $--md),
-  'md-only': "(min-width: #{$--md}) and (max-width: #{$--lg } - 1)",
+  'md-only': "(min-width: #{$--md}) and (max-width: #{$--lg} - 1)",
   'md-and-down': (max-width: $--lg - 1),
   'lg-and-up' : (min-width: $--lg),
-  'lg-only': "(min-width: #{$--lg}) and (max-width: #{$--xl } - 1)",
+  'lg-only': "(min-width: #{$--lg}) and (max-width: #{$--xl} - 1)",
   'lg-and-down': (max-width: $--xl - 1),
   'xl-only' : (min-width: $--xl),
 );
